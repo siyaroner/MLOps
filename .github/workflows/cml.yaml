@@ -15,10 +15,11 @@ jobs:
           python ContinuousIntegrationML.py
           
           echo "## Model metrics" > report.md
-          cat metrics.txt >> report.md
+          cat FermetedGrapeJuiceScores.txt >> report.md
           
           echo "## Data viz" >> report.md
           cml-publish Feature_importance.png --md >> report.md
           cml-publish residuals.png --md >> report.md
           
           cml-send-comment report.md
+          
