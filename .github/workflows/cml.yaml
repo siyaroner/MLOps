@@ -20,4 +20,4 @@ jobs:
           echo "##Data Visualize" >> report.md
           cml.publish Feature_importance.png --md >> report.md
           cml.publish residuals.png --md >> report.md
-          cml-send-comment report.md
+          cml publish --md report.md
