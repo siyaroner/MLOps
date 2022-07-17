@@ -14,5 +14,5 @@ jobs:
           pip install -r requirements.txt
           python ContinuousIntegrationML.py
           
-          echo "## Model metrics" > report.md
-          cat metrics.txt >> report.md
+          echo "Model metrics"
+          cat metrics.txt
