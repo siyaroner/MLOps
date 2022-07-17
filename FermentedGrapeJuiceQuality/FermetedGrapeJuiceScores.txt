@@ -1,2 +1,0 @@
-Training varience score: 33.0%
-test varience score: 32.0%
